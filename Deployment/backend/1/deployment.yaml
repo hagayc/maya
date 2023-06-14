@@ -59,8 +59,7 @@ spec:
           imagePullPolicy: IfNotPresent
           terminationMessagePolicy: File
          # Update with your image name
-         image: 'quay.io/hagayc/back:v1'
-         #
+          image: 'quay.io/hagayc/back:v1'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
       dnsPolicy: ClusterFirst
