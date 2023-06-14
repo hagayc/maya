@@ -59,7 +59,6 @@ spec:
           terminationMessagePolicy: File
          # Update with your image name
          image: 'quay.io/hagayc/front:v1'
-         #
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
       dnsPolicy: ClusterFirst
